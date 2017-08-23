@@ -1,0 +1,14 @@
+#contenedor{ margin:0 auto; width:100%;}
+#header{ margin-bottom:20px; width:100%; height:auto; background-color:#f27925; text-align:center;}
+h1 img { max-width:100%; width:100%;}
+h1{ margin:0 auto; width:90%;}
+#caja1{ margin-right:4%; width:100%; display:block;}
+#caja2{ margin-bottom:20px; width:100%; display:block;}
+.subcaja1{ margin-bottom:20px; padding:45px; font-family: 'azo_l', helvetica, verdana, sans-serif; font-size:13px; color:#333; display:block; background-color:#f2f2f2; line-height:17px;}
+.subcaja2{ padding:45px; font-family: 'azo_l', helvetica, verdana, sans-serif; font-size:13px; color:#333; display:block; background-color:#f2f2f2; line-height:17px;}
+#footer{ margin-bottom:20px; padding:45px; background-color:#f2f2f2; font-family: 'azo_l', helvetica, verdana, sans-serif; font-size:13px; color:#333; display:block; clear:both; line-height:17px;}
+.bold{font-family: 'azo_b', Open Sans, verdana, sans-serif; color:#f27925;}
+.img{ display:block; clear:both; margin-bottom:10px; width:300px;}
+.img img{max-width:100%; width:100%;}
+.bott{ margin-bottom:20px;}
+#container-headerp { height: 0px;}

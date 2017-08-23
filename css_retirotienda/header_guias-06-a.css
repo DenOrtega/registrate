@@ -1,0 +1,300 @@
+@charset "UTF-8";
+
+
+/* Font-Face */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800');
+
+@font-face {
+    font-family: 'azo_sansblack';
+    src: url('../fonts/azosans-black-webfont.woff2') format('woff2'),
+         url('../fonts/azosans-black-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'azo_sansbold';
+    src: url('../fonts/azosans-bold-webfont.woff2') format('woff2'),
+         url('../fonts/azosans-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'azo_sanslight';
+    src: url('../fonts/azosans-light-webfont.woff2') format('woff2'),
+         url('../fonts/azosans-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'azo_sansregular';
+    src: url('../fonts/azosans-regular-webfont.woff2') format('woff2'),
+         url('../fonts/azosans-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.pushy-hpcl {
+    display: none;
+}
+
+#container-headerp #cuerpo a { margin: 0; padding: 0; border: 0;  font-size:11px; color: #666 }
+#container-headerp #cuerpo fieldset { margin: 0; padding: 0; border: 0;  font-size:11px; color: #666 }
+#container-headerp #cuerpo form { margin: 0; padding: 0; border: 0;  font-size:11px; color: #666 }
+#container-headerp #cuerpo p { margin: 0; padding: 5px 0px; border: 0;  text-align: left; color: #818180; display: inline;}
+#container-headerp #cuerpo li { margin: 0; padding: 0; border: 0; }
+#container-headerp #cuerpo ol { margin: 0; padding: 0; border: 0; }
+#container-headerp #cuerpo ul { margin: 0; padding: 0; border: 0; }
+#container-headerp #cuerpo tr { margin: 0; padding: 0; border: 0;}
+#container-headerp #cuerpo td { margin: 0; padding: 0; border: 0; }
+#container-headerp #cuerpo img { margin: 0; padding: 0; border: 0; }
+html { overflow-y: scroll }
+body { height: 100%; width: 100%; font-family: Open Sans;}
+
+textarea, input {
+  outline: none;
+  border: 1px solid #ddd;
+    height: 30px;
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    border-radius: 16px;
+    width: 100%;
+    padding-left: 10px;
+  }
+
+#container-headerp { width:100%; display: block; overflow: hidden; background-color: #f6f6f6; font-family: Open Sans, Geneva, sans-serif; line-height:1.4;font-size:11px; height: 210px;}
+
+/*#container-headerp #huincha_guias { width:100%; height:auto; background-image: url(http://s7d2.scene7.com/is/image/Cencosud/Huincha_fondo_amordepapa_10jun16?$full-jpeg$);
+    background-repeat: repeat-x;
+    background-position: center top}*/
+
+#container-headerp #huincha_guias .contiene_huincha{ margin: 0 auto; max-width:960px; }
+img {vertical-align: middle;}
+
+#container-headerp #cuerpo { width:100%; max-width:960px; height:auto; margin:0 auto; display:table; background-image: none;}
+
+#container-headerp #auxiliares {  float:right; height:auto; width: 720px; top: 10px !important; font-size: 12px; font-family: 'Open Sans', sans-serif !important; color: #666666;}
+
+#container-headerp #auxiliares a { padding:0 2.5%; text-decoration:none}
+
+#container-headerp #auxiliares a:hover { opacity: 0.6}
+
+#container-headerp #auxiliares a:first-child { padding:0 2.5% 0 0;}
+
+#container-headerp #auxiliares span { padding:0 2%;}
+
+#container-headerp #auxiliares .ayuda_arrow { margin: 0 0 0 3px;}
+
+#container-headerp .ayuda_btn{
+    display: inline-block;
+    padding: 0 1.1%;
+    color: #666;
+    font-family: 'Open Sans', sans-serif;
+	  cursor: pointer;
+}
+
+#container-headerp #ayuda_tool {
+  display:none; width:320px;
+  height:auto;
+  position: absolute;
+  background-color: #fff;
+	margin: 1% 0 0 3%;
+	border-radius: 6px;
+	border: 1px solid #bababa;
+    -webkit-box-shadow: 0px 3px 12px 1px rgba(0,0,0,0.21) ;
+    -moz-box-shadow: 0px 3px 12px 1px rgba(0,0,0,0.21) ;
+    box-shadow: 0px 3px 12px 1px rgba(0,0,0,0.21) ;
+    z-index: 999;
+}
+
+#container-headerp #login_tool {
+  display: none;
+  width:220px;
+  height:auto;
+  position: absolute;
+  background-color: #fff;
+	margin: 3% 0 0 0;
+	border-radius: 6px;
+	border: 1px solid #bababa;
+    -webkit-box-shadow: 0px 3px 12px 1px rgba(0,0,0,0.21) ;
+    -moz-box-shadow: 0px 3px 12px 1px rgba(0,0,0,0.21) ;
+    box-shadow: 0px 3px 12px 1px rgba(0,0,0,0.21) ;
+    z-index: 999;
+}
+
+#container-headerp #ayuda_tool img { float:left; padding: 0 3% 0 5%;}
+
+#container-headerp #ayuda_tool .ayuda_element { float:left;  margin-left: 10px; margin-bottom: 10px; border-bottom: #eeeeee 1px solid; width: 93%; height: auto;}
+
+#container-headerp #ayuda_tool .ayuda_element:last-child { border-bottom:none;}
+
+#container-headerp #ayuda_tool .ayuda_element .ayuda-titulo {
+    text-align: left;
+    display: block;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    color: #f27925;
+    font-size: 15px;
+}
+
+#container-headerp .ayuda-bajada {
+    display: block !important;
+    color: #999;
+}
+#container-headerp #login_tool #datos .ayuda_element { float:left; margin-left: 5px;margin-bottom: 15px; width: 93%; height: auto;}
+#container-headerp #login_tool #datos .ayuda-bajada { display: block !important; font-size: 11px;}
+#container-headerp #login_tool #datos #login-boton {
+  display: inline-block;
+  padding: 8px;
+color: #fff;
+font-family: 'Open Sans', sans-serif;
+cursor: pointer;
+background-color: #f27925;
+text-align: center;
+width: 100%;
+margin-top: 10px;
+-webkit-border-radius: 16px;
+-moz-border-radius: 16px;
+border-radius: 16px;
+}
+
+#container-headerp #logo_guias { width: 15%; float:left; height:auto}
+
+#container-headerp #logo_guias img {margin: -3% 0 2% 0;}
+
+#container-headerp #buscador_guias { width:45%; float:left; height: auto; border: 1px solid #d6d6d6;
+    border-radius: 16px;
+    background-color: #fff;
+		margin: 2.5% 0 1%;
+		overflow: hidden;}
+
+#container-headerp #buscador_guias input { /*padding:2%;*/ background: transparent; width:80%; border: none;
+    font-size: 12px;
+    color: #999999;
+    margin-left: 12px;
+    margin-top: 2px;}
+
+#container-headerp #buscador_guias a { display:block; background-color:#f27925; float:right; height:auto; width:45px; min-height: 38px;}
+
+#container-headerp #buscador_guias a img {margin: 18% 0 0 25%;}
+
+#container-headerp .lupa_mobile { display:none;}
+
+#container-headerp #login_guias { width:33%; float:right; height:auto; text-align:left; margin: 2% 0 2%;}
+
+#container-headerp #login_guias a { float:left; padding: 2%; font-size:14px; text-decoration: none; color:#f27925;}
+
+#datos { font-size:12px; padding: 2em 2em; display: block; float: none;}
+
+#container-headerp #login_sep {  margin: 8px 10px;height: 30px;  float: left;	}
+
+#container-headerp #login_guias_mobile { display:none;}
+
+#container-headerp #desk_nav { width:40%; float:left; padding-left: 13%;}
+
+#container-headerp #desk_nav .menu-hpcl { width:100%; max-width:960px; height:100%; margin:0 auto;}
+
+#container-headerp #desk_nav .menu-hpcl  a { text-decoration:none; color:#f27925;  padding: 0 3px 6px; font-family: Open Sans, Tahoma, Geneva, sans-serif; font-size:13px; width:100%; height:100%; /*display: inline-table*/; line-height: 38px;}
+
+
+#container-headerp #desk_nav .menu-hpcl  a:last-child {
+    /*border-bottom: solid 1px #fc8f44;*/
+		font-family: "Open Sans";
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 600;
+    color: #fc8f44 !important;
+    border-bottom: solid 2px #fc8f44
+
+}
+
+#container-headerp #desk_nav .menu-hpcl  a:hover { transition: all 0.5s ease; opacity: 0.6;}
+
+#container-headerp .menu-hpcl ul { display: table;width: 100%; height:100%;margin: 0;}
+
+#container-headerp .menu-hpcl li { display: table-cell; text-align:center;}
+
+#container-headerp .menu-btn-hpcl { display:none}
+
+
+@media screen and (max-width: 967px) {
+
+#container-headerp #auxiliares { display:none}
+
+#container-headerp #huincha_guias { display:none}
+#container-headerp {height: 120px;}
+
+#container-headerp .menu-btn-hpcl { display: block;
+    min-width: 32px;
+    float: left;
+    background-image: url("../images/movil/menu_responsive_01.png");
+    overflow: hidden;
+    background-size: cover;
+    margin: 4% 5% 2%;
+    min-height: 32px;
+}
+
+#container-headerp #desk_nav { display:none}
+
+#container-headerp #cuerpo { background-color:#f27925;}
+
+#container-headerp #logo_guias { width: 12%;
+    margin: 2% 2% 0;
+    max-width: 60px;}
+
+#container-headerp #logo_guias img { width:100%; height:auto;}
+
+#container-headerp #buscador_guias { width:90%; margin: 2% 5% 3%;}
+
+#container-headerp #buscador_guias a { background-color: transparent; margin-right: 2%; min-height: auto;}
+
+#container-headerp #buscador_guias a img {
+    margin: 10% 0 10% 25%;
+}
+
+#container-headerp #login_guias { display:none}
+
+#container-headerp .lupa_desk { display:none;}
+
+#container-headerp .lupa_mobile { display:block; width: 80%; max-width:32px;}
+
+
+.pushy-hpcl .menu-hpcl li {
+    display: inline-block;
+    text-align: center;
+    border-left: none;
+    width: 100%;
+	  border-bottom: 1px solid #fc8f44;
+}
+
+.pushy-hpcl .menu-hpcl li a { font-size:16px; font-family: Open Sans, sans-serif; font-weight: 300;
+}
+
+#container-headerp #login_guias_mobile { display:block; float: right; width: 40%;
+    margin: 4% 5% 3%;}
+
+#container-headerp #login_guias_mobile  a { min-width:32px; min-height:32px; display: block;
+    float: right;     margin: 0 0 0 10%;}
+
+#container-headerp #buscador_guias input { min-height: 17px;}
+
+}
+
+
+/*Para modificar el tamaño del checkbox de Iniciar Sesión modal*/
+input[type="radio"],
+input[type="checkbox"] {
+  /* IE8-9 */
+  line-height: normal;
+  display: inline-block;
+  align-content: left;
+  width: 15px;
+  margin-left: 5px;
+  vertical-align: middle;
+}

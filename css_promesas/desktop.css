@@ -1,0 +1,11 @@
+#contenedor{ margin:0 auto; width:1000px;}
+#header{ margin-bottom:40px; width:100%; height:auto; background-color:#f27925; text-align:center;}
+h1{ margin:0 auto;}
+#caja1{ margin-right:4%; width:48%; float:left; display:block;}
+#caja2{ margin-bottom:40px; width:48%; float:left; display:block;}
+.subcaja1{ margin-bottom:40px; padding:45px; font-family: 'Open Sans', helvetica, verdana, sans-serif; font-size:13px; color:#333; display:block; background-color:#f2f2f2; line-height:17px; -webkit-border-radius: 16px; -moz-border-radius: 16px; border-radius: 16px;}
+.subcaja2{ padding:45px; font-family: Open Sans, helvetica, verdana, sans-serif; font-size:13px; color:#333; display:block; background-color:#f2f2f2; line-height:17px; -webkit-border-radius: 16px; -moz-border-radius: 16px; border-radius: 16px;}
+#footer{ margin-bottom:40px; padding:45px; background-color:#f2f2f2; font-family: Open Sans, helvetica, verdana, sans-serif; font-size:13px; color:#333; display:block; clear:both; line-height:17px; -webkit-border-radius: 16px; -moz-border-radius: 16px; border-radius: 16px;}
+.bold{font-family: 'azo_b', helvetica, verdana, sans-serif; color:#f27925;}
+.img{ display:block; clear:both; margin-bottom:10px;}
+.bott{ padding-bottom:62px;}

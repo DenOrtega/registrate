@@ -1,0 +1,12 @@
+#contenedor{ margin:0 auto; width:100%;}
+#header{ margin-bottom:40px; width:100%; height:auto; background-color:#01aef2; text-align:center;}
+h1{ margin:0 auto;}
+#caja1{ margin-right:4%; width:48%; float:left; display:block;}
+#caja2{ margin-bottom:40px; width:48%; float:left; display:block;}
+.subcaja1{ margin-bottom:40px; padding:45px; font-family: 'azo_l', helvetica, verdana, sans-serif; font-size:13px; color:#333; display:block; background-color:#f2f2f2; line-height:17px;}
+.subcaja2{ padding:45px; font-family: 'azo_l', helvetica, verdana, sans-serif; font-size:13px; color:#333; display:block; background-color:#f2f2f2; line-height:17px;}
+#footer{ margin-bottom:40px; padding:45px; background-color:#f2f2f2; font-family: 'azo_l', helvetica, verdana, sans-serif; font-size:13px; color:#333; display:block; clear:both; line-height:17px;}
+.bold{font-family: 'azo_b', helvetica, verdana, sans-serif; color:#01aef2;}
+.img{ display:block; clear:both; margin-bottom:10px; width:90%;}
+.img img{max-width:100%; width:100%;}
+.bott{ padding-bottom:80px;}
