@@ -1,0 +1,186 @@
+document.write('\
+\
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800" rel="stylesheet" type="text/css">\
+<link href="https://www.paris.cl/guias/header-paris/css/header_guias-06-a.css" rel="stylesheet" type="text/css" />\
+<link rel="stylesheet" href="https://www.paris.cl/guias/header-paris/css/pushy-hpcl-01.css">\
+<!--link rel="stylesheet" href="https://www.paris.cl/guias/header-paris/css/reset.min.css"-->\
+<style>\
+#container-headerp #huincha_guias { width:100%; height:auto; max-height: 38px; background-color: #fff; background-image:\
+url(https://imagenes.paris.cl/is/image/Cencosud/Huincha_fondo_01jun17?$full%2Djpeg$) !important;\
+background-repeat: repeat-x;\
+background-position: center top}\
+#buscador_guias {max-height: 35px;}\
+#auxiliares img {float: left;}\
+#auxiliares {margin-top: 3%;}\
+#logo_guias {margin-top: 3%;}\
+.peel { position:absolute; z-index:999999999999; top:0; right:0;}\
+@media screen and (max-width: 1000px) {\
+.peel { display:none; !important}\
+}\
+* {margin:0;padding:0;}\
+</style>\
+<nav class="pushy-hpcl pushy-hpcl-left"></nav>\
+<div class="site-overlay-hpcl"></div>\
+<!-- inicio container-header3 -->\
+<div id="container-headerp">\
+<div class="test"></div>\
+<!-- inicio huincha-guias 2017 -->\
+<!--div class="peel"><img src="https://imagenes.paris.cl/is/image/Cencosud/Huincha_rojo_11ago17?$full-png$" border="0"/></div-->\
+<div id="huincha_guias">\
+<div class="contiene_huincha">\
+<a href="https://www.paris.cl/guias/dias-al-rojo/">\
+<img src="https://imagenes.paris.cl/is/image/Cencosud/huincha_mobile_marcas_10ago17?$huincha%2Dpng%2Dtranparente$" class="huincha-desk-head" border="0"/>\
+</div>\
+</div>\
+<!-- cierre huincha-guia -->\
+<!-- inicio cuerpo -->\
+<div id="cuerpo">\
+<!-- inicio auxiliares -->\
+<div id="auxiliares">\
+<a><img src="https://paris.scene7.com/is/image/Cencosud/novios2013?$full-jpeg$" style="margin: -2px 0 -7px 0;"></a>|\
+<a href="https://www.paris.cl/guias/servicios/tiendas.html" target="_parent">Tiendas</a>|\
+<div class="ayuda_btn">Ayuda\
+<img class="ayuda_arrow" src="https://www.paris.cl/guias/header-paris/images/ayuda_arrow.gif" width="8" height="8">\
+</div>|\
+<!-- inicio ayuda_tool -->\
+<div id="ayuda_tool" class="ayuda_tool">\
+<!-- inicio ayuda_element1 -->\
+<div class="ayuda_element">\
+<a href="mailto:contacto@paris.cl" target="_self">\
+<img src="https://www.paris.cl/guias/header-paris/images/contact_ico.gif" border="0">\
+<span class="ayuda-titulo">Cont&aacute;ctanos</span>\
+<span class="ayuda-bajada">Escr&iacute;benos aqu&iacute;</span>\
+</a>\
+</div>\
+<!-- FIN ayuda_element1 -->\
+<!-- inicio ayuda_element1B -->\
+<div class="ayuda_element">\
+<a href="javascript:openChat();" target="_self">\
+<img data-feo-orig-src="https://imagenes.paris.cl/is/image/Cencosud/icon%2Dchat?$full%2Dpng$" class="ayuda-flota" src="https://imagenes.paris.cl/is/image/Cencosud/icon%2Dchat?$full%2Dpng$" alt="" title="" width="64" height="92" border="0">\
+<script blzsys="1" type="text/javascript">aFeoOverrideAttrRead("img", "src")</script>\
+<span class="ayuda-titulo">Chat On Line</span>\
+<span class="ayuda-bajada">Resuelve tus dudas y asesora<br>tus compras en Paris.cl</span>\
+</a>\
+</div>\
+<!-- FIN ayuda_element1B -->\
+<!-- inicio ayuda_element2 -->\
+<div class="ayuda_element">\
+<img src="https://www.paris.cl/guias/header-paris/images/llama_ico.gif" border="0">\
+<span class="ayuda-titulo">Ll&aacute;manos</span>\
+<span class="ayuda-bajada">Usa nuestro servicio telef&oacute;nico<br>Ll&aacute;manos al <strong>600 400 8000</strong></span>\
+</div>\
+<!-- FIN ayuda_element2 -->\
+<!-- inicio ayuda_element4 -->\
+<div class="ayuda_element">\
+<a href="https://www.paris.cl/guias/servicios/devoluciones-y-cambios.html" target="_parent">\
+<img src="https://www.paris.cl/guias/header-paris/images/dev_ico.gif" border="0">\
+<span class="ayuda-titulo">Dudas sobre devoluciones</span>\
+<span class="ayuda-bajada">Dudas sobre devoluciones aqu&iacute;</span>\
+</a>\
+</div>\
+<!-- FIN ayuda_element4 -->\
+<!-- inicio ayuda_element5 -->\
+<div class="ayuda_element">\
+<a href="https://www.paris.cl/guias/servicios/tiendas.html" target="_parent">\
+<img src="https://www.paris.cl/guias/header-paris/images/pin_ico.gif" border="0">\
+<span class="ayuda-titulo">Nuestras tiendas</span>\
+<span class="ayuda-bajada">Informaci&oacute;n de nuestras tiendas aqu&iacute;</span>\
+</a>\
+</div>\
+<!-- FIN ayuda_elemen5 -->\
+<!-- inicio ayuda_elemen6 -->\
+<div class="ayuda_element">\
+<a href="https://www.paris.cl/guias/servicios/preguntas-frecuentes.html" target="_parent">\
+<img src="https://www.paris.cl/guias/header-paris/images/facs_ico.gif" border="0">\
+<span class="ayuda-titulo">Preguntas frecuentes</span>\
+<span class="ayuda-bajada">Las respuestas a las preguntas m&aacute;s frecuentes est&aacute;n aqu&iacute;</span>\
+</a>\
+</div>\
+<!-- FIN ayuda_elemen6 -->\
+</div>\
+<!-- FIN ayuda_tool -->\
+<a style="color:#0099ff !important; font-weight:bold;" href="/webapp/wcs/stores/servlet/AjaxTrackingOrderDetailView?catalogId=&amp;langId=-5&amp;storeId=10801&amp;tab=tienda&amp;fromHeader=true ">Estado de entrega <img style=" float:none; margin: 0px 0 -5px 7px;" src="https://imagenes.paris.cl/is/image/Cencosud/order%5Ftruck?$full%2Djpeg$" width="30" height="21"></a>|\
+<span>Servicio al Cliente <strong>600 400 8000</strong></span>|\
+<span>Venta Telef&oacute;nica <strong>600 400 6400</strong></span>\
+</div>\
+<!-- FIN auxiliares -->\
+<div class="menu-btn-hpcl"></div>\
+<!-- inicio logo_guias -->\
+<div id="logo_guias">\
+<a href="https://www.paris.cl/tienda/es/paris" target="_parent">\
+<img src="https://www.paris.cl/guias/header-paris/images/ParisTiendaLogo_11.png" width="104" height="107">\
+</a>\
+</div>\
+<!-- cierre logo_guias -->\
+<!-- inicio login_guias_mobile -->\
+<div id="login_guias_mobile">\
+<a href="https://ssl.paris.cl/webapp/wcs/stores/servlet/LogonForm?langId=-5&catalogId=40000000629&storeId=10801&krypto=kcuK2Y%2BrJO7pgzbdSe4BLs%2B3lYLToPQeH2JaiQU3sB3lCMnvJX64RHYgAqD%2FEqEbv9kNucHISTwe%0AzH4lmWdPZNLY%2B%2BC63P72dpvRn0QlN%2BDawO5OoVo3gOkWmm%2B%2BY3vwC0zfxHqzH3rpP%2B%2B1Z2pqhGC7%0Aje8fjj%2FHoWJBqTDY22Rx14x3uvxcHkJKtc3XZHJ%2FXPVKjOtMWDuje%2Bz7zeAkWLOp0MGDWGIEobO6%0ATvnj4ZWUU%2FAPnsyCmgXXLwQ4uovEz7kxIZlWLKa0NLF2eO6ZsaC92m3Ib3Migvb673Fd8Xphn65b%0AdqhALM5d6GCvQO8%2BlMyt3FCYCnKpCNuXO2cyYzGT1ZrFXXYGwsdLGa30hERzK9eaX%2B3ELHWYsIM7%0AseMjpnSTDsN7BixwfHnhCdXQkjeZBvAGzJxLPzaT8uOOFJwinTgqg3gMtNzj4Oqk0NsngXnC3Ild%0ARto%3D&ddkey=https:Logon" target="_parent">\
+<img src="https://www.paris.cl/guias/header-paris/images/ico_login_m.png" width="32" height="32">\
+</a>\
+<a href="https://www.paris.cl/webapp/wcs/stores/servlet/AjaxTrackingOrderDetailView?catalogId=&langId=-5&storeId=10801&tab=tienda&fromHeader=true" target="_parent">\
+<img src="https://www.paris.cl/guias/header-paris/images/ico_store_mobile.png" width="32" height="32">\
+</a>\
+</div>\
+<!-- FIN login_guias_mobile -->\
+<!-- inicio buscador_guias -->\
+<div id="buscador_guias">\
+<!--script src="https://www.paris.cl/guias/header-paris/js/buscador-hpcl.js"></script-->\
+<script type="text/javascript">\
+$(document).ready(function(){\
+$("#stndrUrl").click( function() {\
+window.location = $(this).attr("href") + "=" + $("#appendUrl").val();\
+return false;\
+});\
+});\
+</script>\
+<input type="text" id="appendUrl" name=""/>\
+<a href="https://www.paris.cl/webapp/wcs/stores/servlet/SearchDisplay?storeId=10801&catalogId=40000000629&langId=-5&pageSize=30&beginIndex=0&searchSource=Q&sType=SimpleSearch&resultCatEntryType=2&showResultsPage=true&pageView=image&searchTerm" id="stndrUrl" target="_blank"><img class="lupa_desk" src="https://www.paris.cl/guias/header-paris/images/lupa_ico.png">\
+<img class="lupa_mobile" src="https://www.paris.cl/guias/header-paris/images/lupa_mobile.png">\
+</a>\
+</div>\
+<!-- FIN buscador_guias -->\
+<!-- inicio login_guias -->\
+<div id="login_guias">\
+<a href="https://ssl.paris.cl/webapp/wcs/stores/servlet/LogonForm?langId=-5&catalogId=40000000629&storeId=10801" target="_parent"><strong>Inicia Sesi&oacute;n</strong></a>\
+<div id="login_sep"></div>\
+<a href="https://ssl.paris.cl/webapp/wcs/stores/servlet/UserRegistrationForm?new=Y&catalogId=40000000629&myAcctMain=1&langId=-5&storeId=10801">Registrate</a>\
+</div>\
+<!-- FIN login_guias -->\
+</div>\
+<!-- FIN cuerpo -->\
+<!-- inicio desk_nav -->\
+<nav id="desk_nav">\
+<div class="menu-hpcl">\
+<ul>\
+<li><a href="https://www.paris.cl/tienda/es/paris/electro" target="_parent" id="minisitios-electro">ELECTRO</a></li>\
+<li><a href="https://www.paris.cl/tienda/es/paris/tecnologia" target="_parent" id="minisitios-computacion">TECNOLOG&Iacute;A</a></li>\
+<li><a href="https://www.paris.cl/tienda/es/paris/linea-blanca" target="_parent" id="minisitios-lineaBlanca">L&Iacute;NEA BLANCA</a></li>\
+<li><a href="https://www.paris.cl/tienda/es/paris/dormitorio" target="_parent" id="minisitios-dormitorio">DORMITORIO</a></li>\
+<li><a href="https://www.paris.cl/tienda/es/paris/muebles" target="_parent" id="minisitios-muebles">MUEBLES</a></li>\
+<li><a href="https://www.paris.cl/tienda/es/paris/decohogar" target="_parent" id="minisitios-decohogar">DECO</a></li>\
+<li><a href="https://www.paris.cl/tienda/es/paris/moda" target="_parent" id="minisitios-moda">MODA</a></li>\
+<li><a href="https://www.paris.cl/tienda/es/paris/belleza" target="_parent" id="minisitios-belleza">BELLEZA</a></li>\
+<li><a href="https://www.paris.cl/tienda/es/paris/top-calzado" target="_parent" id="minisitios-calzado">ZAPATOS</a></li>\
+<li><a href="https://www.paris.cl/tienda/es/paris/deportes" target="_parent" id="minisitios-deportes">DEPORTES</a></li>\
+<li><a href="https://www.paris.cl/tienda/es/paris/infantil" target="_parent" id="minisitios-infantil">INFANTIL</a></li>\
+<li><a href="https://www.paris.cl/tienda/es/paris/jugueteria" target="_parent" id="minisitios-juguetes">JUGUETES</a></li>\
+</ul>\
+</div>\
+</nav>\
+<!-- FIN desk_nav -->\
+</div>\
+<!-- FIN container-headerp -->\
+<script src="https://www.paris.cl/guias/header-paris/js/menu-pushy.js"></script>\
+<script src="https://www.paris.cl/guias/header-paris/js/ayuda-btn.js"></script>\
+<script src="https://www.paris.cl/guias/header-paris/js/pushy-hpcl.min.js"></script>\
+\
+<script type="text/javascript">\
+function openChat()\
+{ if(navigator.userAgent.toLowerCase().indexOf("opera") != -1 && window.event.preventDefault)\
+window.event.preventDefault();\
+this.chat = window.open("https://atentochile.s1gateway.com/integrations/chats/chat_tiendas_paris/index.html?cpgid=10000", "S1Gateway",\
+"toolbar=0,scrollbars=0,location=0,status=0,menubar=0,width=420,height=500,resizable=0"); this.chat.focus();\
+var windowwidth = 420; var windowheight = 500; var screenwidth = screen.availWidth; var screenheight = screen.availHeight;\
+this.chat.moveTo(screenwidth - windowwidth,screenheight - windowheight); this.chat.opener=window; }\
+</script>\
+');

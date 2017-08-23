@@ -1,0 +1,4 @@
+$(function(){
+  var $menu = $('.menu-hpcl').clone();
+  $('.pushy-hpcl').html($menu);
+});

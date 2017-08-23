@@ -1,0 +1,253 @@
+@charset "UTF-8";
+
+
+/* Font-Face */
+@font-face {
+	font-family: @sansFontFamily;
+	src: url(../fonts/proxima-nova/proximanova-regular-webfont.eot?1307578394);
+	src: url('../fonts/proxima-nova/proximanova-regular-webfont.eot?iefix') format('eot'),url(../fonts/proxima-nova/proximanova-regular-webfont.woff?1307578394) format('woff'),url(../fonts/proxima-nova/proximanova-regular-webfont.ttf?1307578394) format('truetype'),url('../fonts/proxima-nova/proximanova-regular-webfont.svg#webfont2rpW2ohz') format('svg')
+}
+@font-face {
+	font-family: @sansFontFamily;
+	font-style: italic;
+	src: url(../fonts/proxima-nova/proximanova-regitalic-webfont.eot?1307578394);
+	src: url('../fonts/proxima-nova/proximanova-regitalic-webfont.eot?iefix') format('eot'),url(../fonts/proxima-nova/proximanova-regitalic-webfont.woff?1307578394) format('woff'),url(../fonts/proxima-nova/proximanova-regitalic-webfont.ttf?1307578394) format('truetype'),url('../fonts/proxima-nova/proximanova-regitalic-webfont.svg#webfont2rpW2ohz') format('svg')
+}
+@font-face {
+	font-family: @sansFontFamily;
+	font-weight: 300;
+	src: url(../fonts/proxima-nova/proximanova-light-webfont.eot?1307578394);
+	src: url('../fonts/proxima-nova/proximanova-light-webfont.eot?iefix') format('eot'),url(../fonts/proxima-nova/proximanova-light-webfont.woff?1307578394) format('woff'),url(../fonts/proxima-nova/proximanova-light-webfont.ttf?1307578394) format('truetype'),url('../fonts/proxima-nova/proximanova-light-webfont.svg#webfont2rpW2ohz') format('svg')
+}
+@font-face {
+	font-family: @sansFontFamily;
+	font-weight: 600;
+	src: url(../fonts/proxima-nova/proximanova-semibold-webfont.eot?1307578394);
+	src: url('../fonts/proxima-nova/proximanova-semibold-webfont.eot?iefix') format('eot'),url(../fonts/proxima-nova/proximanova-semibold-webfont.woff?1307578394) format('woff'),url(../fonts/proxima-nova/proximanova-semibold-webfont.ttf?1307578394) format('truetype'),url('../fonts/proxima-nova/proximanova-semibold-webfont.svg#webfont2rpW2ohz') format('svg')
+}
+@font-face {
+	font-family: @sansFontFamily;
+	font-weight: 600;
+	font-style: italic;
+	src: url(../fonts/proxima-nova/proximanova-semibolditalic-webfont.eot?1307578394);
+	src: url('../fonts/proxima-nova/proximanova-semibolditalic-webfont.eot?iefix') format('eot'),url(../fonts/proxima-nova/proximanova-semibolditalic-webfont.woff?1307578394) format('woff'),url(../fonts/proxima-nova/proximanova-semibolditalic-webfont.ttf?1307578394) format('truetype'),url('../fonts/proxima-nova/proximanova-semibolditalic-webfont.svg#webfont2rpW2ohz') format('svg')
+}
+@font-face {
+	font-family: @sansFontFamily;
+	font-weight: bold;
+	src: url(../fonts/proxima-nova/proximanova-bold-webfont.eot?1307578394);
+	src: url('../fonts/proxima-nova/proximanova-bold-webfont.eot?iefix') format('eot'),url(../fonts/proxima-nova/proximanova-bold-webfont.woff?1307578394) format('woff'),url(../fonts/proxima-nova/proximanova-bold-webfont.ttf?1307578394) format('truetype'),url('../fonts/proxima-nova/proximanova-bold-webfont.svg#webfont2rpW2ohz') format('svg')
+}
+@font-face {
+	font-family: @sansFontFamily;
+	font-weight: bold;
+	font-style: italic;
+	src: url(../fonts/proxima-nova/proximanova-boldit-webfont.eot?1307578394);
+	src: url('../fonts/proxima-nova/proximanova-boldit-webfont.eot?iefix') format('eot'),url(../fonts/proxima-nova/proximanova-boldit-webfont.woff?1307578394) format('woff'),url(../fonts/proxima-nova/proximanova-boldit-webfont.ttf?1307578394) format('truetype'),url('../fonts/proxima-nova/proximanova-boldit-webfont.svg#webfont2rpW2ohz') format('svg')
+}
+@font-face {
+	font-family: @sansFontFamily;
+	font-weight: 900;
+	src: url(../fonts/proxima-nova/proximanova-extrabold-webfont.eot?1307578394);
+	src: url('../fonts/proxima-nova/proximanova-extrabold-webfont.eot?iefix') format('eot'),url(../fonts/proxima-nova/proximanova-extrabold-webfont.woff?1307578394) format('woff'),url(../fonts/proxima-nova/proximanova-extrabold-webfont.ttf?1307578394) format('truetype'),url('../fonts/proxima-nova/proximanova-extrabold-webfont.svg#webfont2rpW2ohz') format('svg')
+}
+
+
+.pushy-hpcl {
+    display: none;
+}
+
+#container-headerp #cuerpo a { margin: 0; padding: 0; border: 0;  font-size:11px; color: #666 }
+#container-headerp #cuerpo fieldset { margin: 0; padding: 0; border: 0;  font-size:11px; color: #666 }
+#container-headerp #cuerpo form { margin: 0; padding: 0; border: 0;  font-size:11px; color: #666 }
+#container-headerp #cuerpo p { margin: 0; padding: 0; border: 0; }
+#container-headerp #cuerpo li { margin: 0; padding: 0; border: 0; }
+#container-headerp #cuerpo ol { margin: 0; padding: 0; border: 0; }
+#container-headerp #cuerpo ul { margin: 0; padding: 0; border: 0; }
+#container-headerp #cuerpo tr { margin: 0; padding: 0; border: 0;}
+#container-headerp #cuerpo td { margin: 0; padding: 0; border: 0; }
+#container-headerp #cuerpo img { margin: 0; padding: 0; border: 0; }
+html { overflow-y: scroll }
+body { height: 100%; width: 100%;}
+
+textarea, input { outline: none; }
+
+#container-headerp { width:100%; display: block; overflow: hidden; background-color: #FFF; font-family: Tahoma, Geneva, sans-serif; line-height:1.4;font-size:11px;}
+
+/*#container-headerp #huincha_guias { width:100%; height:auto; background-image: url(http://s7d2.scene7.com/is/image/Cencosud/Huincha_fondo_amordepapa_10jun16?$full-jpeg$);
+    background-repeat: repeat-x;
+    background-position: center top}*/
+
+#container-headerp #huincha_guias .contiene_huincha{ margin: 0 auto; max-width:960px; }
+
+#container-headerp #cuerpo { width:100%; max-width:960px; height:auto; margin:0 auto; display:table; background-image: none;}
+
+#container-headerp #auxiliares { width:85%; float:right; height:auto;}
+
+#container-headerp #auxiliares a { padding:0 1.4%; text-decoration:none}
+
+#container-headerp #auxiliares a:hover { text-decoration:underline;}
+
+#container-headerp #auxiliares a:first-child { padding:0 1.4% 0 0;}
+
+#container-headerp #auxiliares span { padding:0 2%;}
+
+#container-headerp #auxiliares .ayuda_arrow { margin: 0 0 0 3px;}
+
+#container-headerp .ayuda_btn{
+    display: inline-block;
+    padding: 0 1.1%;
+    color: #666;
+    font-family: 'Open Sans', sans-serif;
+	cursor: pointer;
+}
+
+#container-headerp #ayuda_tool {
+    display:none; width:320px; height:auto; position: absolute;
+    background-color: #fff;
+	margin: 1% 0 0 3%;     
+	border-radius: 6px;
+	border: 1px solid #bababa;
+    -webkit-box-shadow: 0px 3px 12px 1px rgba(0,0,0,0.21) ;
+    -moz-box-shadow: 0px 3px 12px 1px rgba(0,0,0,0.21) ;
+    box-shadow: 0px 3px 12px 1px rgba(0,0,0,0.21) ;
+    z-index: 999;
+}
+	
+#container-headerp #ayuda_tool img { float:left; padding: 0 3% 0 5%;}
+
+#container-headerp #ayuda_tool .ayuda_element { float:left; border-bottom: #eeeeee 1px solid; width: 93%;
+    padding: 0 5% 0 2%;}
+
+#container-headerp #ayuda_tool .ayuda_element:last-child { border-bottom:none;}
+
+#container-headerp #ayuda_tool .ayuda_element .ayuda-titulo {
+    display: block;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    color: #0099ff;
+    font-size: 15px;
+}
+
+#container-headerp .ayuda-bajada {
+    display: block;
+    color: #999;
+}
+
+#container-headerp #logo_guias { width: 15%; float:left; height:auto}
+
+#container-headerp #logo_guias img { padding: 0 0 5% 0; margin: -3% 0 2% 0;}
+
+#container-headerp #buscador_guias { width:45%; float:left; height: auto; border: 1px solid #6ab7eb;
+    border-radius: 5px;
+    background-color: #f6f6f6;
+	margin: 2.5% 0 1%;
+	overflow: hidden;}
+	
+#container-headerp #buscador_guias input { padding:2%; background: transparent; width:80%; border: none;
+    font-size: 12px;
+    color: #999999;}
+
+#container-headerp #buscador_guias a { display:block; background-color:#0099ff; float:right; height:auto; width:10%; min-height: 35px;}
+
+#container-headerp #buscador_guias a img {margin: 18% 0 0 25%;}
+
+#container-headerp .lupa_mobile { display:none;}
+		
+	
+#container-headerp #login_guias { width:23%; float:right; height:auto; text-align: right; margin: 3% 0 2%;}
+
+#container-headerp #login_guias a { float:left; padding: 2%; font-size:14px; text-decoration: none; color:#0099ff;}
+
+#container-headerp #login_sep {    margin: 0 15px;
+    height: 30px;
+    border-right: 1px solid #ccc;
+    float: left;}
+	
+#container-headerp #login_guias_mobile { display:none;}
+
+#container-headerp #desk_nav { width:100%; float:left; background-color:#0099ff; height:45px;}
+
+#container-headerp #desk_nav .menu-hpcl { width:100%; max-width:960px; height:100%; margin:0 auto;}
+
+#container-headerp #desk_nav .menu-hpcl  a { text-decoration:none; color:#FFF;  font-family: "Proxima Nova", Tahoma, Geneva, sans-serif; font-size:13px; width:100%; height:100%; display: inline-table; line-height: 45px;}
+
+
+#container-headerp #desk_nav .menu-hpcl  a:last-child {
+    border-right: solid 1px #4db8ff;
+}
+
+#container-headerp #desk_nav .menu-hpcl  a:hover { background-color:#003e6f;}
+
+
+#container-headerp .menu-hpcl ul { display: table;
+  width: 100%; height:100%;margin: 0;}
+
+#container-headerp .menu-hpcl li { display: table-cell; text-align:center; border-left: solid 1px #4db8ff;}
+
+#container-headerp .menu-btn-hpcl { display:none}
+
+
+@media screen and (max-width: 967px) {
+	
+#container-headerp #auxiliares { display:none}
+
+#container-headerp #huincha_guias { display:none}
+
+#container-headerp .menu-btn-hpcl { display: block;
+    min-width: 32px;
+    float: left;
+    background-image: url("https://www.paris.cl/guias/header-paris/images/menu_responsive_01.png");
+    overflow: hidden;
+    background-size: cover;
+    margin: 4% 5% 2%;
+    min-height: 32px;
+}
+
+#container-headerp #desk_nav { display:none}
+
+#container-headerp #cuerpo { background-color:#0099ff;}
+
+#container-headerp #logo_guias { width: 12%;
+    margin: 2% 2% 0;
+    max-width: 60px;}
+
+#container-headerp #logo_guias img { width:100%; height:auto;}
+
+#container-headerp #buscador_guias { width:90%; margin: 2% 5% 3%;}
+
+#container-headerp #buscador_guias a { background-color: transparent; margin-right: 2%; min-height: auto;}
+
+#container-headerp #buscador_guias a img {
+    margin: 10% 0 10% 25%;
+}
+
+#container-headerp #login_guias { display:none}
+
+#container-headerp .lupa_desk { display:none;}
+
+#container-headerp .lupa_mobile { display:block; width: 80%; max-width:32px;}
+
+
+.pushy-hpcl .menu-hpcl li {
+    display: inline-block;
+    text-align: center;
+    border-left: none;
+    width: 100%;
+	border-bottom: 1px solid #4db8ff;
+}
+
+.pushy-hpcl .menu-hpcl li a { font-size:16px; font-family: tahoma, sans-serif; font-weight: 300;
+}
+
+#container-headerp #login_guias_mobile { display:block; float: right; width: 40%;
+    margin: 4% 5% 3%;}
+
+#container-headerp #login_guias_mobile  a { min-width:32px; min-height:32px; display: block;
+    float: right;     margin: 0 0 0 10%;}
+
+#container-headerp #buscador_guias input { min-height: 17px;}
+
+}
+
+

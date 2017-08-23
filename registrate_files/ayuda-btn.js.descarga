@@ -1,0 +1,27 @@
+$(document).ready(function(){
+    $('.ayuda_btn').click(function(event){
+        event.stopPropagation();
+         $(".ayuda_tool").fadeToggle( "fast" );
+    });
+    $(".ayuda_tool").on("click", function (event) {
+        event.stopPropagation();
+    });
+});
+
+$(document).on("click", function () {
+    $(".ayuda_tool").hide();
+});
+
+$(document).ready(function(){
+    $('.login_btn').click(function(event){
+        event.stopPropagation();
+         $(".login_tool").fadeToggle( "fast" );
+    });
+    $(".login_tool").on("click", function (event) {
+        event.stopPropagation();
+    });
+});
+
+$(document).on("click", function () {
+    $(".ayuda_tool").hide();
+});
